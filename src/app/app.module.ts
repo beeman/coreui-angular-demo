@@ -5,6 +5,9 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { CoreUIModule } from 'coreui-angular/dist';
+import { RouterModule } from '@angular/router'
+
 @NgModule({
   declarations: [
     AppComponent
@@ -12,7 +15,11 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+
+    RouterModule.forRoot([]),
+
+    CoreUIModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

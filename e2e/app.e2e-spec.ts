@@ -1,6 +1,6 @@
 import { CoreuiTestPage } from './app.po';
 
-describe('coreui-test App', function() {
+describe('coreui-angular-demo App', function() {
   let page: CoreuiTestPage;
 
   beforeEach(() => {
